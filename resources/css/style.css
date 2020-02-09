@@ -1,0 +1,363 @@
+html,
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  background-color: white;
+}
+
+.container {
+  width: 70%;
+  margin: 0;
+}
+
+.bild{
+  padding-top: 58px;
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+nav {
+  background-color: #01DFA5;
+  color: White;
+  position: fixed;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  text-decoration: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#reisen:hover {
+  content: url("../images/reisen2.png")
+}
+
+#programmieren:hover {
+  content: url("../images/programmieren2.png")
+}
+
+#camping:hover {
+  content: url("../images/camping2.png")
+}
+
+#lesen:hover {
+  content: url("../images/lesen2.png")
+}
+
+#kochen:hover {
+  content: url("../images/kochen2.png")
+}
+
+#musik:hover {
+  content: url("../images/musik2.png")
+}
+.supporting,
+.supporting2,
+.game,
+.gallery,
+.location {
+  margin: 4em auto;
+}
+
+.supporting {
+  display: flex;
+  align-items: flex-start;
+  padding: 0 1rem;
+}
+
+.supporting img {
+  height: 15%;
+  width: 15%;
+  margin-right: 5%;
+}
+
+.supporting2 {
+  display: flex;
+  align-items: flex-start;
+  padding: 0 1rem;
+}
+
+.supporting2 img {
+  height: 15%;
+  width: 15%;
+  margin-right: 5%;
+}
+
+.description {
+  padding-top: 20px;
+}
+
+.description h1,
+.description2 h1 {
+  font-size: 3rem;
+}
+
+.description2 {
+  padding-top: 20px;
+}
+
+.rating {
+ text-align: center;
+}
+
+.game {
+  background-color: #01DFA5;
+  height: 44rem;
+  padding: 0 1rem 2rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game h1 {
+  font-size: 2.5rem;
+}
+
+.gallery img {
+  display: block;
+  width: 30%;
+  margin: 1.5%;
+  float: left;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.location {
+  text-align: center;
+  margin-bottom: 7rem;
+}
+
+.location img {
+  max-width: 100%;
+  height: auto;
+}
+
+.carousel {
+  width: 60%;
+  height: 60%;
+}
+
+.carousel-item img,
+.carousel-item-active img{
+  width: 940px;
+  height: 788px;
+}
+
+footer {
+  background-color: #01DFA5;
+  padding: 0 1rem;
+}
+
+footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5em 0;
+  color: white;
+}
+
+@media only screen and (max-width: 960px) {
+  .main {
+    padding-top: 0;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .supporting img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  h1 {
+    font-size: 1rem;
+  }
+  .gallery img {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media all and (max-width:30em){
+  a.button2{
+    display: block;
+    margin: 0.4em auto;
+  }
+}
+
+@keyframes loading100 {
+  from {
+     width: 0%;
+   }
+
+   to {
+     width:100%;
+   }
+ }
+
+ @keyframes loading90 {
+  from {
+     width: 0%;
+   }
+
+   to {
+     width:90%;
+   }
+ }
+
+ @keyframes loading80 {
+  from {
+     width: 0%;
+   }
+
+   to {
+     width:80%;
+   }
+ }
+
+@keyframes loading70 {
+  from {
+     width: 0%;
+   }
+
+   to {
+     width:70%;
+   }
+ }
+
+ @keyframes loading60 {
+  from {
+     width: 0%;
+   }
+
+   to {
+     width:60%;
+   }
+ }
+
+
+ @keyframes loading50 {
+  from {
+     width: 0%;
+   }
+
+   to {
+     width:50%;
+   }
+ }
+
+ @keyframes loading40 {
+  from {
+     width: 0%;
+   }
+
+   to {
+     width:40%;
+   }
+ }
+
+ @keyframes loading30 {
+  from {
+     width: 0%;
+   }
+
+   to {
+     width:30%;
+   }
+ }
+
+ .loading-100 {
+  animation-name: loading100;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  width: 100%;
+}
+
+.loading-90 {
+  animation-name: loading90;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  width: 90%;
+}
+
+.loading-80 {
+  animation-name: loading80;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  width: 80%;
+}
+
+ .loading-70 {
+   animation-name: loading70;
+   animation-duration: 2s;
+   animation-iteration-count: 1;
+   width: 70%;
+ }
+
+ .loading-60 {
+  animation-name: loading60;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  width: 60%;
+}
+
+ .loading-50 {
+  animation-name: loading50;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  width: 50%;
+}
+
+.loading-40 {
+  animation-name: loading40;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  width: 40%;
+}
+
+.loading-30 {
+  animation-name: loading30;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  width: 30%;
+}
+
+ .progress-bar {
+  background-color: #01DFA5 !important;
+ }
+
+ .btn-primary {
+   background-color: white !important;
+   color: #01DFA5 !important;
+   border:0.16em solid #01DFA5 !important;
+   border-radius: 0%;
+   padding:0.5em 3em;
+   margin:0 0.3em 0.3em 0;
+ }
+
+ .btn-primary:hover{
+  color:rgba(1, 223, 164, 0.548) !important;
+  border-color:rgba(1, 223, 164, 0.548) !important;
+  }
+
+.btn-primary:active{
+  color:#01DFA5 !important;
+  border-color:#01DFA5 !important;
+  }
